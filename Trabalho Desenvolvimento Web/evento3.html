@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confronto dos Reinos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="evento3">
+    <header>
+        <h1>Confronto dos Reinos</h1>
+    </header>
+    <main>
+        <section id="detalhes-evento">
+            <h2>Sobre o Evento</h2>
+            <p>"Confronto dos Reinos" é uma mesa de RPG onde os participantes assumem o papel de capitães de navios em um confronto naval épico entre reinos rivais. Prepare-se para estratégia naval, batalhas emocionantes e conquistas gloriosas!</p>
+
+            <h2>Cronograma</h2>
+            <ul>
+                <li><strong>10:00 - 12:00:</strong> Registro e Briefing de Equipes</li>
+                <li><strong>12:00 - 13:00:</strong> Intervalo para Almoço</li>
+                <li><strong>13:00 - 16:00:</strong> Batalhas Navais</li>
+                <li><strong>16:00 - 18:00:</strong> Premiação e Encerramento</li>
+            </ul>
+
+            <h2>Regras do Jogo</h2>
+            <p>Cada equipe terá um navio capitaneado por um jogador. As batalhas serão realizadas em um cenário dinâmico onde estratégia e cooperação são fundamentais para a vitória.</p>
+
+            <h2>Inscrição</h2>
+            <form id="formulario3">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+                <button type="button" onclick="cadastrar(event)">Cadastrar</button>
+                <p class="sucesso" id="mensagem-sucesso"></p>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

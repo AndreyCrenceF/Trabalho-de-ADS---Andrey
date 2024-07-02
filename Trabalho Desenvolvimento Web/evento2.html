@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventura nas Profundezas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="evento2">
+    <header>
+        <h1>Aventura nas Profundezas</h1>
+    </header>
+    <main>
+        <section id="detalhes-evento">
+            <h2>Sobre o Evento</h2>
+            <p>"Aventura nas Profundezas" é uma mesa de RPG ao vivo onde os participantes exploram um mistério nas profundezas de um mundo fantástico. Prepare-se para desafios emocionantes, enigmas intrigantes e decisões que moldarão o destino!</p>
+
+            <h2>Cronograma</h2>
+            <ul>
+                <li><strong>10:00 - 12:00:</strong> Sessão de Abertura e Introdução à História</li>
+                <li><strong>12:00 - 13:00:</strong> Intervalo para Almoço</li>
+                <li><strong>13:00 - 16:00:</strong> Exploração e Resolução de Enigmas</li>
+                <li><strong>16:00 - 18:00:</strong> Conclusão da Aventura e Discussão</li>
+            </ul>
+
+            <h2>Personagens Principais</h2>
+            <ul>
+                <li><strong>Mestre do Jogo:</strong> Conduzirá a narrativa e os eventos</li>
+                <li><strong>Personagens Jogáveis:</strong> Interpretados pelos participantes, cada um com habilidades únicas</li>
+                <li><strong>Figuras Misteriosas:</strong> NPCs que influenciarão o desenrolar da trama</li>
+            </ul>
+
+            <h2>Inscrição</h2>
+            <form id="formulario2">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+                <button type="button" onclick="cadastrar(event)">Cadastrar</button>
+                <p class="sucesso" id="mensagem-sucesso"></p>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
